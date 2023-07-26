@@ -14,11 +14,16 @@
 	border-radius: 4px;
 }
 
+/* margin: 0 auto; is used to horizontally center an
+element within its parent container */
 .places h2 {
 	font-size: 30px;
 	margin: 0 auto;
 }
 
+/* The flex-wrap property determines how flex items should wrap or not when
+they exceed the width of the flex container. Here, wrap allows flex items
+to wrap to the next line if they don't fit in a single line. */
 .places {
 	max-width: 1000px;
 	margin: 0 auto;

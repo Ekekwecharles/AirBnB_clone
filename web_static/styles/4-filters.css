@@ -4,8 +4,12 @@
 	width: 100%;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
+	display: flex;
 }
 
+/* "margin: auto 30px auto auto;" works better with display: flex
+margin: auto is used to center an element horizontally when it is a flex item with a flex container.
+It doesn't have the same effect on non-flex elements. */
 .filters button{
 	font-size: 18px;
 	background: #FF5A5F;
@@ -14,8 +18,7 @@
 	width: 20%;
 	border: none;
 	border-radius: 4px;
-	float: right;
-	margin: 11px 30px;
+	margin: auto 30px auto auto;
 }
 
 .filters button:hover {

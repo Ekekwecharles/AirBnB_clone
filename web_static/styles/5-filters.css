@@ -4,6 +4,7 @@
 	width: 100%;
 	border: 1px solid #DDDDDD;
 	border-radius: 4px;
+	display: flex;
 }
 
 .filters button{
@@ -14,15 +15,13 @@
 	width: 20%;
 	border: none;
 	border-radius: 4px;
-	float: right;
-	margin: 11px 30px;
+	margin: auto 30px auto auto;
 }
 
 .locations,
 .amenities {
 	height: 100%;
 	width: 25%;
-	float: left;
 }
 
 .locations {
@@ -33,10 +32,9 @@
 .amenities h3 {
 	text-align: left;
 	font-weight: 600;
-	font-size: 16px;
 	margin-top: 20px;
 	margin-bottom: 0px;
-	margin-left: 30px;
+	margin-left: 40px;
 }
 
 .locations h4,
@@ -44,7 +42,7 @@
     font-weight: 400;
 	font-size: 14px;
 	margin-top: 0px;
-	margin-left: 30px;
+	margin-left: 40px;
 	text-align: left;
 }
 

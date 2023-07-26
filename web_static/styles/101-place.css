@@ -9,13 +9,18 @@
 
 section.places article {
 	width: 390px;
+	border: 1px solid #ff5a5f;
 	padding: 20px;
 	margin: 20px;
-	border: 1px solid #FF5A5F;
 	border-radius: 4px;
+}
+
+.flex_place_price{
 	display: flex;
-	flex-wrap: wrap;
-	justify-content: center;
+	flex-direction: row;
+	justify-content: space-between;
+	margin-top: 0px;
+	margin-bottom: 10px;
 }
 
 section.places h1 {
@@ -97,4 +102,75 @@ section.places article div.description {
 section.places article div.user {
 	width: 100%;
 	padding-top: 0px;
+}
+
+section.places article div.amenities,
+section.places article div.reviews {
+	margin-top: 40px;
+	width: 100%
+}
+
+section.places article div.amenities h2,
+section.places article div.reviews h2 {
+	font-size: 16px;
+	border-bottom: 1px solid #DDDDDD;
+	text-align: left;
+	padding-left: 0px;
+	padding-bottom: 10px;
+}
+
+section.places article div.amenities ul li,
+section.places article div.reviews ul li{
+	list-style: none;
+}
+
+section.places article div.amenities ul,
+section.places article div.reviews ul {
+	padding: 0px;
+	/* display: block; */
+}
+
+.tv {
+	background-image: url(../images/icon_tv.png);
+}
+
+.wifi {
+	background-image: url(../images/icon_wifi.png);
+}
+
+.pets_friendly {
+	background-image: url(../images/icon_pets.png);
+}
+
+section.places article div.amenities ul li {
+	height: 25px;
+	width: 25px;
+	background-repeat: no-repeat;
+	background-position: center left;
+	background-size: cover;
+}
+
+div.reviews ul li p , article div.amenities ul li p {
+    font-size: 12px;
+}
+
+div.reviews ul li p {
+	margin-top: 0px;
+}
+
+article div.amenities ul li p {
+	width: 100px;
+	margin-left: 40px;
+	padding-top: 8px;
+}
+
+section.places article div.amenities ul {
+	margin-bottom: 0px;
+}
+
+div.reviews ul li h3 {
+    font-size: 14px;
+    margin-bottom: 0px;
+    margin-top: 20px;
+    line-height: 20px;
 }
